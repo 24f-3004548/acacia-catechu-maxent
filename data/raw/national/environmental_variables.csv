@@ -1,0 +1,22 @@
+variable,description,units,source,period,reference_resolution,final_model_selection
+bio1,Annual mean temperature,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio2,Mean diurnal temperature range,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio3,Isothermality,%,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio4,Temperature seasonality,temperature SD x 100,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio5,Maximum temperature of warmest month,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio6,Minimum temperature of coldest month,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio7,Temperature annual range,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio8,Mean temperature of wettest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio9,Mean temperature of driest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio10,Mean temperature of warmest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio11,Mean temperature of coldest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio12,Annual precipitation,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio13,Precipitation of wettest month,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio14,Precipitation of driest month,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio15,Precipitation seasonality,coefficient of variation (%),WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio16,Precipitation of wettest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio17,Precipitation of driest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio18,Precipitation of warmest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+bio19,Precipitation of coldest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,pending
+elevation,SRTM-derived elevation,m,WorldClim SRTM-derived elevation,static terrain,30 arc-seconds,pending
+ndvi,Mean Sentinel-2 NDVI,dimensionless,Sentinel-2 L2A (export pending),2025 proposed,30 arc-seconds,pending

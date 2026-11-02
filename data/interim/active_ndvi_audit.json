@@ -1,0 +1,8 @@
+{
+  "source": "Sentinel-2 annual mean 2025 at 30 arc-seconds",
+  "period": "January\u2013December 2025 annual mean",
+  "valid_India_fraction": 0.9999995217298457,
+  "common_predictor_fraction": 0.9988248902310213,
+  "observation_counts_available": true,
+  "status": "Exploratory: occurrences confirmed WGS84"
+}

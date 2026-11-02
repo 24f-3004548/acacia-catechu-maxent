@@ -1,0 +1,10 @@
+[
+  "Spatial transfer: the reserved-region AUC is 0.729; nested spatial CV averages 0.690 \u00b1 0.087. The weakest development fold (region 1) scored 0.590 on 165 presences and 2119 background points.",
+  "Threshold: at the training T10 cut-off, 3.0% of reserved presences fall below threshold, while 89.5% of reserved background points also exceed it. This broad screen should not be read as a false-positive rate; background sites are not confirmed absences.",
+  "Baseline: the distance-only model scored 0.554 AUC on the same reserved set, compared with 0.729 for the environmental model. No significance test was run.",
+  "Sampling sensitivity: using other-species survey locations as training background changed reserved-set AUC by -0.298; the alternative was not retuned.",
+  "Predictor signal: ndvi had the largest mean permutation-associated AUC decrease (0.154). This is model-dependent association, not causal contribution.",
+  "The response curves come from the full-data refit, while permutation importance and jackknife use the development-trained evaluation model; their magnitudes should not be compared directly.",
+  "Area: the thresholded projection covers 1,454,463 km\u00b2 inside M and observed predictor ranges. It is not an estimate of occupied or invaded area.",
+  "Use: the map can help prioritize field verification. Protected-area benefits, future climate shifts and invasion risk were not evaluated."
+]

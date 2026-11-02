@@ -1,0 +1,22 @@
+variable,description,units,source,period,reference_resolution,final_model_selection,used_in_model
+bio1,Annual mean temperature,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio2,Mean diurnal temperature range,degC,WorldClim 2.1,1970-2000,30 arc-seconds,retained by training-only priority/correlation rule,True
+bio3,Isothermality,%,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio4,Temperature seasonality,temperature SD x 100,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio5,Maximum temperature of warmest month,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio6,Minimum temperature of coldest month,degC,WorldClim 2.1,1970-2000,30 arc-seconds,retained by training-only priority/correlation rule,True
+bio7,Temperature annual range,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio8,Mean temperature of wettest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio9,Mean temperature of driest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio10,Mean temperature of warmest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio11,Mean temperature of coldest quarter,degC,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio12,Annual precipitation,mm,WorldClim 2.1,1970-2000,30 arc-seconds,retained by training-only priority/correlation rule,True
+bio13,Precipitation of wettest month,mm,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio14,Precipitation of driest month,mm,WorldClim 2.1,1970-2000,30 arc-seconds,retained by training-only priority/correlation rule,True
+bio15,Precipitation seasonality,coefficient of variation (%),WorldClim 2.1,1970-2000,30 arc-seconds,retained by training-only priority/correlation rule,True
+bio16,Precipitation of wettest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio17,Precipitation of driest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio18,Precipitation of warmest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+bio19,Precipitation of coldest quarter,mm,WorldClim 2.1,1970-2000,30 arc-seconds,"not retained: correlation, constant or predictor cap",False
+elevation,SRTM-derived elevation,m,WorldClim SRTM-derived elevation,static terrain,30 arc-seconds,retained by training-only priority/correlation rule,True
+ndvi,Mean Sentinel-2 NDVI,dimensionless,Sentinel-2 annual mean 2025 at 30 arc-seconds,January–December 2025 annual mean,30 arc-seconds,retained by training-only priority/correlation rule,True

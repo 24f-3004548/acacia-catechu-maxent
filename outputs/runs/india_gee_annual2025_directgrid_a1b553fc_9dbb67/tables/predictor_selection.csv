@@ -1,0 +1,22 @@
+variable,retained,max_abs_r_to_other_retained,decision
+ndvi,True,0.46169490383314055,retained by training-only priority/correlation rule
+elevation,True,0.5906432396866107,retained by training-only priority/correlation rule
+bio6,True,0.5888316659596876,retained by training-only priority/correlation rule
+bio12,True,0.5038457905695014,retained by training-only priority/correlation rule
+bio15,True,0.5790639935072707,retained by training-only priority/correlation rule
+bio4,False,0.815960964803253,"not retained: correlation, constant or predictor cap"
+bio2,True,0.5790639935072707,retained by training-only priority/correlation rule
+bio5,False,0.843282863067411,"not retained: correlation, constant or predictor cap"
+bio14,True,0.5906432396866107,retained by training-only priority/correlation rule
+bio3,False,0.7819442605163993,"not retained: correlation, constant or predictor cap"
+bio1,False,0.9292734345959459,"not retained: correlation, constant or predictor cap"
+bio13,False,0.9548213541055836,"not retained: correlation, constant or predictor cap"
+bio7,False,0.7971319994216167,"not retained: correlation, constant or predictor cap"
+bio16,False,0.9627479753457856,"not retained: correlation, constant or predictor cap"
+bio17,False,0.9231393353488738,"not retained: correlation, constant or predictor cap"
+bio10,False,0.9169803567392146,"not retained: correlation, constant or predictor cap"
+bio11,False,0.9686189969789916,"not retained: correlation, constant or predictor cap"
+bio8,False,0.8952937898518208,"not retained: correlation, constant or predictor cap"
+bio9,False,0.7452941925716572,"not retained: correlation, constant or predictor cap"
+bio18,False,0.5290578929041061,"not retained: correlation, constant or predictor cap"
+bio19,False,0.4081109877262613,"not retained: correlation, constant or predictor cap"

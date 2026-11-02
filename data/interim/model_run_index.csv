@@ -1,0 +1,2 @@
+run_id,NDVI,status,presences,background,predictors,heldout_auc,nested_cv_auc,heldout_omission_T10,report
+india_gee_annual2025_directgrid_a1b553fc_9dbb67,Sentinel-2 annual mean 2025 at 30 arc-seconds,Exploratory: occurrences confirmed WGS84,1279,10000,"ndvi, elevation, bio6, bio12, bio15, bio2, bio14",0.7288843331894692,0.6899255229683003,0.030211480362537766,outputs/runs/india_gee_annual2025_directgrid_a1b553fc_9dbb67/report/Acacia_catechu.html

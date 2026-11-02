@@ -1,0 +1,37 @@
+{
+  "complete_region": true,
+  "start_date": "2025-01-01",
+  "end_date_exclusive": "2026-01-01",
+  "collection": "COPERNICUS/S2_SR_HARMONIZED",
+  "grid": {
+    "crs": "EPSG:4326",
+    "shape": [
+      3641,
+      3509
+    ],
+    "transform": [
+      0.008333333333333333,
+      0.0,
+      68.17499999999998,
+      0.0,
+      -0.008333333333333333,
+      37.09166666666667
+    ],
+    "bounds": [
+      68.17499999999998,
+      6.75,
+      97.41666666666669,
+      37.09166666666667
+    ],
+    "boundary": "india_soi_boundary.gpkg",
+    "resolution_arcseconds": 30,
+    "national_boundary_preserved": true,
+    "occurrence_crs_confirmed": false
+  },
+  "mosaic_sha256": "bfe7632ee69fcc7ce9cf6ad5c9cba59575aa44731d654daf21b4d5d77aac0ddd",
+  "minimum_granules": 3,
+  "cloud_mask": "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED cs_cdf >= 0.6",
+  "processing_method": "Code Editor export: per-granule NDVI evaluated at requested 30-arcsecond scale, then annual temporal mean",
+  "coverage_percent": 99.99995217298458,
+  "downloaded_utc": "2026-11-01T11:14:58.780770+00:00"
+}

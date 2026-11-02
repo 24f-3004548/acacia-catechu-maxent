@@ -1,0 +1,15 @@
+model,variable,feature_type,coefficient_transformed_scale,nonzero
+evaluation,ndvi,linear,6.691499265377702,True
+evaluation,elevation,linear,-4.1450630773285315,True
+evaluation,bio6,linear,-1.5971371672037054,True
+evaluation,bio12,linear,-5.741517861531255,True
+evaluation,bio15,linear,2.7750440517323707,True
+evaluation,bio2,linear,-2.6329185768196774,True
+evaluation,bio14,linear,1.2622535472581689,True
+full_data_refit,ndvi,linear,7.3033114308466445,True
+full_data_refit,elevation,linear,-3.4044397488158498,True
+full_data_refit,bio6,linear,0.00809403630428656,True
+full_data_refit,bio12,linear,-7.00745262673877,True
+full_data_refit,bio15,linear,3.652515010906284,True
+full_data_refit,bio2,linear,-2.0884052924683036,True
+full_data_refit,bio14,linear,2.3955385136309166,True

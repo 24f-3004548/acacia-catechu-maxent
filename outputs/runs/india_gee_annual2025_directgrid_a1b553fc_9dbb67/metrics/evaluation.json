@@ -1,0 +1,25 @@
+{
+  "development_training_auc": 0.6822370943577534,
+  "heldout_presence_background_auc": 0.7288843331894692,
+  "heldout_omission_at_training_T10": 0.030211480362537766,
+  "heldout_auc_bootstrap_95ci": [
+    0.6985920371169616,
+    0.7580624190763918
+  ],
+  "heldout_omission_bootstrap_95ci": [
+    0.012084592145015106,
+    0.0513595166163142
+  ],
+  "bootstrap_replicates": 2000,
+  "heldout_background_above_T10": 0.8946428571428572,
+  "training_T10_threshold": 0.3438805653600455,
+  "distance_only_heldout_auc": 0.5543299525248165,
+  "train_test_auc_gap": -0.04664723883171584,
+  "nested_spatial_auc_mean": 0.6899255229683003,
+  "nested_spatial_auc_sd": 0.0874682000753389,
+  "development_presences": 941,
+  "heldout_presences": 331,
+  "development_background": 7184,
+  "heldout_background": 2800,
+  "minimum_test_to_training_presence_km": 20.186756609819497
+}

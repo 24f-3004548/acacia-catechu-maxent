@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# OS & Editor generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+.cache/
+~$*
+*.tmp
+
+
+# Large GIS & Remote Sensing Data Formats (>50MB / large binaries)
+*.tif
+*.tiff
+*.geotiff
+*.gpkg
+*.zip
+*.tar.gz
+*.tar
+
+# Data directories (raw predictors, downloads, and generated processed grids)
+data/raw/ndvi/*.tif
+data/raw/ndvi/incoming/
+data/raw/predictors_india/*.tif
+data/raw/boundaries/*.gpkg
+data/raw/boundaries/*.geojson
+data/processed/
+data/interim/prepare_manual_ndvi.log
+
+# Large output run artifacts (GeoTIFF rasters, massive monolithic html with base64, outcome archives)
+outputs/runs/**/maps/*.tif
+outputs/runs/**/*.zip
+outputs/runs/**/report/*.html
+outputs/runs/**/html/*.html
+
+# Preserve empty folder structure
+!data/**/.gitkeep
+!outputs/**/.gitkeep

@@ -1,0 +1,9 @@
+{
+  "final_training_T10": 0.327518917148763,
+  "screening_area_inside_M_and_ranges_km2": 1454463.4122774,
+  "common_coverage_percent": 99.88248902310212,
+  "valid_projection_cells": 4176823,
+  "environmentally_novel_cells": 457614,
+  "outside_calibration_region_cells": 1663105,
+  "full_refit_training_auc_not_independent": 0.6946627834245505
+}

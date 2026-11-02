@@ -1,0 +1,142 @@
+{
+  "run_id": "india_gee_annual2025_directgrid_a1b553fc_9dbb67",
+  "created_utc": "2026-11-02T07:30:56.084416+00:00",
+  "implementation": "elapid.MaxentModel, sklearn L1 solver",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "rasterio": "1.5.2",
+    "geopandas": "1.2.0",
+    "elapid": "1.0.4",
+    "scikit-learn": "1.9.1"
+  },
+  "settings": {
+    "species": "Acacia catechu",
+    "seed": 42,
+    "ndvi_source_override": null,
+    "background_size": 10000,
+    "accessible_buffer_km": 100,
+    "spatial_regions": 4,
+    "holdout_region": 3,
+    "validation_buffer_km": 20,
+    "correlation_limit": 0.8,
+    "max_predictors": 7,
+    "feature_candidates": [
+      [
+        "linear"
+      ],
+      [
+        "linear",
+        "quadratic"
+      ]
+    ],
+    "beta_candidates": [
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "inner_folds": 2,
+    "permutation_repeats": 10,
+    "prediction_chunk_rows": 64,
+    "minimum_gee_granules": 3,
+    "occurrence_crs": "EPSG:4326",
+    "occurrence_crs_status": "confirmed WGS84 latitude/longitude",
+    "study_area": "India"
+  },
+  "best_settings": {
+    "feature_types": [
+      "linear"
+    ],
+    "beta_multiplier": 4.0
+  },
+  "selected_predictors": [
+    "ndvi",
+    "elevation",
+    "bio6",
+    "bio12",
+    "bio15",
+    "bio2",
+    "bio14"
+  ],
+  "source_hashes": {
+    "data/raw/ndvi/India_S2_mean_NDVI_2025_Annual_DIRECT_1KM.tif": "bfe7632ee69fcc7ce9cf6ad5c9cba59575aa44731d654daf21b4d5d77aac0ddd"
+  },
+  "source_label": "Sentinel-2 annual mean 2025 at 30 arc-seconds",
+  "status": "Exploratory: occurrences confirmed WGS84",
+  "NDVI_period": "January\u2013December 2025 annual mean",
+  "NDVI_cloud_mask": "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED cs_cdf >= 0.6",
+  "NDVI_processing": "Code Editor export: per-granule NDVI evaluated at requested 30-arcsecond scale, then annual temporal mean",
+  "grid": {
+    "crs": "EPSG:4326",
+    "shape": [
+      3641,
+      3509
+    ],
+    "transform": [
+      0.008333333333333333,
+      0.0,
+      68.17499999999998,
+      0.0,
+      -0.008333333333333333,
+      37.09166666666667
+    ],
+    "bounds": [
+      68.17499999999998,
+      6.75,
+      97.41666666666669,
+      37.09166666666667
+    ],
+    "study_area": "India"
+  },
+  "evaluation": {
+    "development_training_auc": 0.6822370943577534,
+    "heldout_presence_background_auc": 0.7288843331894692,
+    "heldout_omission_at_training_T10": 0.030211480362537766,
+    "heldout_auc_bootstrap_95ci": [
+      0.6985920371169616,
+      0.7580624190763918
+    ],
+    "heldout_omission_bootstrap_95ci": [
+      0.012084592145015106,
+      0.0513595166163142
+    ],
+    "bootstrap_replicates": 2000,
+    "heldout_background_above_T10": 0.8946428571428572,
+    "training_T10_threshold": 0.3438805653600455,
+    "distance_only_heldout_auc": 0.5543299525248165,
+    "train_test_auc_gap": -0.04664723883171584,
+    "nested_spatial_auc_mean": 0.6899255229683003,
+    "nested_spatial_auc_sd": 0.0874682000753389,
+    "development_presences": 941,
+    "heldout_presences": 331,
+    "development_background": 7184,
+    "heldout_background": 2800,
+    "minimum_test_to_training_presence_km": 20.186756609819497
+  },
+  "projection": {
+    "final_training_T10": 0.327518917148763,
+    "screening_area_inside_M_and_ranges_km2": 1454463.4122774,
+    "common_coverage_percent": 99.88248902310212,
+    "valid_projection_cells": 4176823,
+    "environmentally_novel_cells": 457614,
+    "outside_calibration_region_cells": 1663105,
+    "full_refit_training_auc_not_independent": 0.6946627834245505
+  },
+  "final_model_fit": "all cleaned data after independent evaluation; no independent test score for that refit",
+  "evaluation_model_fit": "development regions only; reserved region excluded from tuning and coefficient fitting",
+  "assignment_final_ready": false,
+  "limitations": [
+    "The occurrence source does not report survey dates, coordinate uncertainty or observation effort; logged exclusions can be reviewed, but unreported sampling bias remains.",
+    "Keeping one presence per reference cell reduces duplicate locations, not uneven survey effort. The target-group background is a sensitivity proxy, not a complete bias correction.",
+    "The 100 km calibration buffer is a working geographic assumption, not a measured dispersal distance or verified historical accessible area.",
+    "WorldClim climate normals cover 1970\u20132000, while vegetation data represent 2025. NDVI may also reflect land use, disturbance and local plant communities.",
+    "Only one geographic region was reserved for final evaluation; this is not an external validation across independent surveys or countries.",
+    "Cloglog scores are relative suitability, not calibrated occupancy probabilities. Background points are not confirmed absences.",
+    "Fold disagreement and permutation variation are partial diagnostics, not a complete prediction-uncertainty interval.",
+    "Clamping does not validate extrapolation. Gray cells indicate missing predictor data, not unsuitable habitat.",
+    "An annual NDVI mean smooths seasonal variation and does not represent species-specific phenology.",
+    "A calendar-year mean aggregates seasonal variation and does not isolate species-specific phenology; observations and phenology vary regionally.",
+    "Code Editor export: per-granule NDVI evaluated at requested 30-arcsecond scale, then annual temporal mean; cloud mask: GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED cs_cdf >= 0.6, evaluated at the requested scale. This is not an exact spatial mean of all 10 m NDVI pixels."
+  ]
+}

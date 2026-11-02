@@ -1,0 +1,23 @@
+reference,url
+Assignment brief,docs/assignment_brief.pdf
+Supplied Acacia catechu occurrence workbook,data/raw/occurrences/Sample Points_Species_dataset.xlsx
+WorldClim 2.1 and SRTM-derived elevation,https://www.worldclim.org/data/worldclim21.html
+"Fick & Hijmans (2017), WorldClim 2",https://doi.org/10.1002/joc.5086
+Survey of India boundary source,https://surveyofindia.gov.in/pages/administrative-boundary-data-base-abdb-
+Sentinel-2 harmonized surface reflectance,https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED
+elapid implementation,https://earth-chris.github.io/elapid/
+"Phillips, Anderson & Schapire (2006), maximum entropy modelling",https://doi.org/10.1016/j.ecolmodel.2005.03.026
+"Hijmans (2012), spatial sorting bias in SDM validation",https://doi.org/10.1890/11-0826.1
+"Roberts et al. (2017), cross-validation for spatially structured data",https://doi.org/10.1111/ecog.02881
+"Deb, D., Singh, J. P., & Chaurasia, R. S. (2015). Biomass estimation of Acacia catechu using statistical modelling. Range Management and Agroforestry, 36(2), 151–155.",https://publications.rmsi.in/index.php/rma/article/view/341
+"Fielding, A. H., & Bell, J. F. (1997). A review of methods for the assessment of prediction errors in conservation presence/absence models. Environmental Conservation, 24(1), 38–49.",https://doi.org/10.1017/S0376892997000088
+"Grubb, P. J. (1977). The maintenance of species-richness in plant communities: The importance of the regeneration niche. Biological Reviews, 52(1), 107–145.",https://doi.org/10.1111/j.1469-185X.1977.tb01347.x
+"Jha, M. N. (1995). Seed germination studies in Acacia catechu Willd. Indian Forester, 121(6), 513–517.",https://scholar.google.com/scholar?q=%22Seed+germination+studies+in+Acacia+catechu+Willd.%22
+"Jhilta, Prakriti, Rana, Neerja, Dipta, Bhawna, & Ghabru, Arti. (2018). Studies on the pod, seed and germination traits of Acacia catechu from Uttarakhand, pp. 42–46.",https://www.zoologyjournals.com/assets/archives/2018/vol3issue4/3-4-21-681.pdf
+"Negi, S. S., Tewari, J. C., & Singh, S. (1996). Natural regeneration of Acacia catechu in dry tropical forests of northern India. Journal of Tropical Forest Science, 8(4), 494–503.",https://scholar.google.com/scholar?q=%22Natural+regeneration+of+Acacia+catechu+in+dry+tropical+forests+of+northern+India%22
+"Orwa, C., Mutua, A., Kindt, R., Jamnadass, R., & Anthony, S. (2009). Acacia catechu. Agroforestree Database: A tree reference and selection guide, version 4.0.",https://apps.worldagroforestry.org/treedb/AFTPDFS/Acacia_catechu.PDF
+"Phillips, S. J. (2021). A brief tutorial on Maxent. AT&T Research.",https://biodiversityinformatics.amnh.org/open_source/maxent/Maxent_tutorial_2021.pdf
+"Puri, S., Swamy, S. L., & Jaiswal, A. K. (1994). Water relations and photosynthetic characteristics of seedlings of four dry zone tree species. Indian Journal of Forestry, 17(3), 185–192.",https://scholar.google.com/scholar?q=%22Water+relations+and+photosynthetic+characteristics+of+seedlings+of+four+dry+zone+tree+species%22
+"Singh, G., Joshi, R. D., Chopra, S. K., & Singh, A. B. (1974). Late Quaternary history of vegetation and climate of the Rajasthan desert, India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, 267(889), 467–501.",https://doi.org/10.1098/rstb.1974.0013
+"Raizada, A., & Juyal, G. P. (2012). Tree species diversity, species regeneration and biological productivity of seeded Acacia catechu Willd. in rehabilitated limestone mines in the North West Indian Himalayas. Land Degradation & Development, 23(2), 167–174.",https://doi.org/10.1002/ldr.1067
+"Sourabh, P., Patel, R., & Singh, V. (2023). Predicting potential habitat distribution of Acacia catechu in India. Applied Ecology and Environmental Sciences, 11(3), 99–103.",https://doi.org/10.12691/aees-11-3-4
