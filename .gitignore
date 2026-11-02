@@ -53,25 +53,6 @@ Thumbs.db
 ~$*
 *.tmp
 
-
-# Large GIS & Remote Sensing Data Formats (>50MB / large binaries)
-*.tif
-*.tiff
-*.geotiff
-*.gpkg
-*.zip
-*.tar.gz
-*.tar
-
-# Data directories (raw predictors, downloads, and generated processed grids)
-data/raw/ndvi/*.tif
-data/raw/ndvi/incoming/
-data/raw/predictors_india/*.tif
-data/raw/boundaries/*.gpkg
-data/raw/boundaries/*.geojson
-data/processed/
-data/interim/prepare_manual_ndvi.log
-
 # Large output run artifacts (GeoTIFF rasters, massive monolithic html with base64, outcome archives)
 outputs/runs/**/maps/*.tif
 outputs/runs/**/*.zip
